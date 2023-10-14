@@ -1,0 +1,59 @@
+
+@import "./colores";
+@import "./checkin";
+@import "./miembros";
+@import "./landing";
+@import "./trabaja";
+@import "./somos";
+
+
+/* Aplica colores al body */
+body {
+  background-color: $color-fondo;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Estilo para el header */
+header {
+  background-color: $color-primario;
+  border: none;
+}
+
+/* Estilo para el navbar */
+.navbar {
+  border: none;
+}
+
+/* Estilo para los botones */
+.btn {
+  background-color: $color-secundario;
+  color: white;
+  border: none;
+}
+
+/* Estilo para las secciones */
+section {
+  background-color: $color-terciario;
+  border: none;
+  margin: 10px;
+  padding: 20px;
+  color: $color-fondo;
+  border-radius: 7px;
+}
+
+/* Estilo para las cards */
+.card {
+  background-color: $color-fondo;
+  border: none;
+  color: #10002B;
+}
+
+/* Estilo para los formularios */
+form {
+  background-color: $color-primario;
+  border: none;
+  padding: 20px;
+  border-radius: 7px;
+ 
+}
+

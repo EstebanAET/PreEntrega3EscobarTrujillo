@@ -1,0 +1,32 @@
+
+section {
+    border: none;
+}
+$carousel-transition-duration:       .2s;
+#myCarousel {
+    .carousel-inner {
+        background-color: $color-primario;
+      .carousel-item {
+        img {
+            padding: 0.2rem;
+          width: 120%; 
+          height: auto; 
+        }
+      }
+    }
+  }
+.card {
+    padding: 0.1rem; 
+
+    img {
+      padding: 2px; 
+    }
+  
+    transition: transform 0.2s, box-shadow 0.2s; 
+  
+    &:hover {
+      transform: scale(1.03); 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+  }
+  
